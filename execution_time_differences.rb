@@ -68,4 +68,5 @@ def largest_contiguous_subsum(list)
     largest
 end
 
-puts largest_contiguous_subsum(list)
+puts largest_contiguous_subsum([-5, -1, -3]) # => -1
+puts largest_contiguous_subsum([2, 3, -6, 7, -6, 7]) # => 8
